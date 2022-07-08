@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import NavTop from "./components/Navbar";
+import MidSection from "./components/MidSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <link rel='icon' href='../public/images/LogoMakr.png' />
       </Head>
       <NavTop />
+      <MidSection/>
     </div>
   );
 }
