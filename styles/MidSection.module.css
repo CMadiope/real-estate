@@ -35,9 +35,14 @@
 #search{
   background: #ff6b6b;
   height: 50px;
+  border: none;
 }
 .input {
   width: 80%;
   height: 50px;
   border: none;
+
 } 
+.searchcontainer form {
+  
+}
